@@ -1,0 +1,56 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #334;
+}
+.user-card {
+  display: flex;
+  align-items: center;
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  max-width: 300px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  color: #334;
+}
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 15px;
+  object-fit: cover;
+  border: 1px solid #334;
+}
+.user-info h3 {
+  margin: 0;
+}
+.status {
+  display: inline-flex;
+  align-items: center;
+}
+.status .indicator {
+  width: 25px;
+  height: 25px;
+  background-color: green;
+  border-radius: 50%;
+  margin-right: 5px;
+  color: white;
+  position: relative;
+}
+.status .online {
+  background-color: green;
+}
+.status .offline {
+  background-color: red;
+  font-weight: bold;
+}
+.status .indicator span {
+  content: "";
+  position: absolute;
+  top: 4px;
+  left: 7px;
+}
