@@ -62,6 +62,7 @@ a {
   color: #007000;
   font-weight: 700;
   line-height: 1;
+  text-shadow: 2px 2px 1px #fff;
 }
 .hero-text {
   font-size: 20px;
@@ -84,8 +85,10 @@ a {
 
 /* About Section */
 .about-section {
-  background-image: url(images/clouds.jpg);
+  background-image: url("https://picsum.photos/id/2/1000");
   background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9);
+  background-blend-mode: lighten;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -114,6 +117,7 @@ a {
 /* Footer */
 .footer {
   background-color: #333333;
+  margin-top: 80px;
 }
 .social-links {
   display: flex;
@@ -127,6 +131,7 @@ a {
 .social-links p {
   display: inline;
   font-size: 16px;
+  color: #c2c2c2;
 }
 .social-links ion-icon {
   padding-right: 10px;
