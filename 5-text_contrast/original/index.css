@@ -84,7 +84,7 @@ a {
 
 /* About Section */
 .about-section {
-  background-image: url(images/clouds.jpg);
+  background-image: url("https://picsum.photos/id/2/1000");
   background-size: cover;
   display: flex;
   justify-content: center;
